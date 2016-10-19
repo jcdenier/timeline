@@ -1,0 +1,390 @@
+<!doctype html>
+<html lang="en" class="no-js">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href='http://fonts.googleapis.com/css?family=Droid+Serif|Open+Sans:400,700' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="css/reset.css">
+    <!-- CSS reset -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style3.css">
+    <!-- Resource style -->
+    <script src="js/modernizr.js"></script>
+    <!-- Modernizr -->
+    <title>Heetch</title>
+</head>
+
+<body>
+    <!-- Load Facebook SDK for JavaScript -->
+    <div id="fb-root"></div>
+    <script>
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "//connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v2.6";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+    <header>
+        <h1>L'histoire de Heetch</h1>
+    </header>
+<!--
+  <input type="radio" id="blue" name="color" />
+  <label for="blue">BLUE</label>
+  <input type="radio" id="red" name="color"/>
+  <label for="red">RED</label>
+  <input type="radio" id="green" name="color"/>
+  <label for="green">GREEN</label>
+  <input type="radio" id="reset" name="color"/>
+  <label for="reset">RESET</label>
+    
+-->    
+    
+    <main class="cd-main-content">
+        <div class="cd-tab-filter-wrapper">
+            <div class="cd-tab-filter">
+                <ul class="cd-filters">
+                    <li class="placeholder">
+                        <a data-type="all" href="#0">All</a>
+                        <!-- selected option on mobile -->
+                    </li>
+                        <li class="filter"><a class="selected" href="#0" data-type="all">All</a></li>
+                        <li class="filter" data-filter=".color-1"><a href="#0" data-type="color-1">Filter 1</a></li>
+
+                        <li class="filter" data-filter=".color-2"><a href="#0" data-type="color-2">Filter 2</a></li>
+
+                        <li class="filter" data-filter=".color-3"><a href="#0" data-type="color-3">Filter 3</a></li>
+                </ul>
+                <!-- cd-filters -->
+            </div>
+            <!-- cd-tab-filter -->
+        </div>
+        <!-- cd-tab-filter-wrapper -->
+    </main>
+
+    <!-- section duplicate 0 -->
+    <div id="cd-timeline" class="cd-container">
+
+
+
+
+        <div class="cd-timeline-block">
+            <div class="cd-timeline-img cd-picture">
+                <img src="img/cd-icon-picture.svg" alt="Picture">
+            </div>
+            <!-- cd-timeline-img -->
+
+            <div class="cd-timeline-content">
+
+                <h2>Image + Text</h2>
+                <span class="cd-date">Jan 18</span>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
+
+
+                <section class="cd-section">
+                    <!-- section content here -->
+
+                    <div class="cd-modal-action">
+                        <a href="#0" class="btn" data-type="modal-trigger">+ d'infos</a>
+                        <span class="cd-modal-bg"></span>
+                    </div>
+
+                    <div class="cd-modal">
+                        <div class="cd-modal-content">
+                            <img src="img/Cover-1-Red.jpg" alt="Smiley face" height="" width="">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad modi repellendus, optio eveniet eligendi molestiae? Fugiat, temporibus! A rerum pariatur neque laborum earum, illum voluptatibus eum voluptatem fugiat, porro animi tempora? Sit harum nulla, nesciunt molestias, iusto aliquam aperiam est qui possimus reprehenderit ipsam ea aut assumenda inventore iste! Animi quaerat facere repudiandae earum quisquam accusamus tempora, delectus nesciunt, provident quae aliquam, voluptatum beatae quis similique in maiores repellat eligendi voluptas veniam optio illum vero! Eius, dignissimos esse eligendi veniam.
+                            </p>
+
+                            <a href="#1" class="btn-content">Lire l'article</a>
+                        </div>
+                        <!-- cd-modal-content -->
+                    </div>
+                    <!-- cd-modal -->
+
+                    <a href="#0" class="cd-modal-close">Close</a>
+                </section>
+            </div>
+            <!-- cd-timeline-content -->
+        </div>
+        <!-- cd-timeline-block -->
+
+        <div class="cd-timeline-block">
+            <div class="cd-timeline-img cd-movie">
+                <img src="img/cd-icon-movie.svg" alt="Movie">
+            </div>
+            <!-- cd-timeline-img -->
+
+            <div class="cd-timeline-content">
+                <h2>Text</h2>
+                <span class="cd-date">Nov 17</span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde?</p>
+                <section class="cd-section">
+                    <!-- section content here -->
+
+                    <div class="cd-modal-action">
+                        <a href="#0" class="btn" data-type="modal-trigger">+ d'infos</a>
+                        <span class="cd-modal-bg"></span>
+                    </div>
+
+                    <div class="cd-modal">
+                        <div class="cd-modal-content">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad modi repellendus, optio eveniet eligendi molestiae? Fugiat, temporibus! A rerum pariatur neque laborum earum, illum voluptatibus eum voluptatem fugiat, porro animi tempora? Sit harum nulla, nesciunt molestias, iusto aliquam aperiam est qui possimus reprehenderit ipsam ea aut assumenda inventore iste! Animi quaerat facere repudiandae earum quisquam accusamus tempora, delectus nesciunt, provident quae aliquam, voluptatum beatae quis similique in maiores repellat eligendi voluptas veniam optio illum vero! Eius, dignissimos esse eligendi veniam.
+                            </p>
+
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad modi repellendus, optio eveniet eligendi molestiae? Fugiat, temporibus! A rerum pariatur neque laborum earum, illum voluptatibus eum voluptatem fugiat, porro animi tempora? Sit harum nulla, nesciunt molestias, iusto aliquam aperiam est qui possimus reprehenderit ipsam ea aut assumenda inventore iste! Animi quaerat facere repudiandae earum quisquam accusamus tempora, delectus nesciunt, provident quae aliquam, voluptatum beatae quis similique in maiores repellat eligendi voluptas veniam optio illum vero! Eius, dignissimos esse eligendi veniam.
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad modi repellendus, optio eveniet eligendi molestiae? Fugiat, temporibus! A rerum pariatur neque laborum earum, illum voluptatibus eum voluptatem fugiat, porro animi tempora? Sit harum nulla, nesciunt molestias, iusto aliquam aperiam est qui possimus reprehenderit ipsam ea aut assumenda inventore iste! Animi quaerat facere repudiandae earum quisquam accusamus tempora, delectus nesciunt, provident quae aliquam, voluptatum beatae quis similique in maiores repellat eligendi voluptas veniam optio illum vero! Eius, dignissimos esse eligendi veniam.
+                            </p>
+
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad modi repellendus, optio eveniet eligendi molestiae? Fugiat, temporibus! A rerum pariatur neque laborum earum, illum voluptatibus eum voluptatem fugiat, porro animi tempora? Sit harum nulla, nesciunt molestias, iusto aliquam aperiam est qui possimus reprehenderit ipsam ea aut assumenda inventore iste! Animi quaerat facere repudiandae earum quisquam accusamus tempora, delectus nesciunt, provident quae aliquam, voluptatum beatae quis similique in maiores repellat eligendi voluptas veniam optio illum vero! Eius, dignissimos esse eligendi veniam.
+                            </p>
+
+                            <a href="#0" class="btn-content">Lire l'article</a>
+                        </div>
+                        <!-- cd-modal-content -->
+                    </div>
+                    <!-- cd-modal -->
+
+                    <a href="#0" class="cd-modal-close">Close</a>
+                </section>
+            </div>
+            <!-- cd-timeline-content -->
+        </div>
+        <!-- cd-timeline-block -->
+
+
+        <div class="cd-timeline-block">
+            <div class="cd-timeline-img cd-picture">
+                <img src="img/cd-icon-picture.svg" alt="Picture">
+            </div>
+            <!-- cd-timeline-img -->
+
+            <div class="cd-timeline-content cover-section-3">
+                <h2>Image Only</h2>
+                <span class="cd-date white">Sept 17</span>
+
+
+
+                <section class="cd-section">
+                    <!-- section content here -->
+
+                    <!-- <div class="cd-modal-action bottom">
+                        <a href="#0" class="btn" data-type="modal-trigger">+ d'infos</a>
+                        <span class="cd-modal-bg"></span>
+                    </div>-->
+
+                    <div class="cd-modal">
+                        <div class="cd-modal-content">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad modi repellendus, optio eveniet eligendi molestiae? Fugiat, temporibus! A rerum pariatur neque laborum earum, illum voluptatibus eum voluptatem fugiat, porro animi tempora? Sit harum nulla, nesciunt molestias, iusto aliquam aperiam est qui possimus reprehenderit ipsam ea aut assumenda inventore iste! Animi quaerat facere repudiandae earum quisquam accusamus tempora, delectus nesciunt, provident quae aliquam, voluptatum beatae quis similique in maiores repellat eligendi voluptas veniam optio illum vero! Eius, dignissimos esse eligendi veniam.
+                            </p>
+                        </div>
+                        <!-- cd-modal-content -->
+                    </div>
+                    <!-- cd-modal -->
+
+                    <a href="#0" class="cd-modal-close">Close</a>
+                </section>
+
+            </div>
+            <!-- cd-timeline-content -->
+        </div>
+        <!-- cd-timeline-block -->
+
+
+
+        <div class="cd-timeline-block">
+            <div class="cd-timeline-img cd-location">
+                <img src="img/cd-icon-location.svg" alt="Location">
+            </div>
+            <!-- cd-timeline-img -->
+
+            <div class="cd-timeline-content">
+                <h2>Social Media</h2>
+                <span class="cd-date">Feb 14</span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
+
+                <section class="cd-section">
+                    <!-- section content here -->
+
+                    <div class="cd-modal-action">
+                        <a href="#0" class="btn" data-type="modal-trigger">+ d'infos</a>
+                        <span class="cd-modal-bg"></span>
+                    </div>
+
+                    <div class="cd-modal">
+                        <div class="cd-modal-content">
+                            <div class="social-content">
+
+                                <!-- Facebook-comments -->
+                                <div class="fb-comment-embed" data-href="https://www.facebook.com/heetchFrance/photos/a.529864450400704.1073741829.500113443375805/1172320089488467/?type=3&comment_id=1172731472780662&comment_tracking=%7B%22tn%22%3A%22R9%22%7D" data-width="auto"></div>
+                                <div class="fb-comment-embed" data-href="https://www.facebook.com/zuck/posts/10102735452532991?comment_id=1070233703036185" data-width="auto"></div>
+
+                                <!-- Twitter-comments -->
+                                <blockquote class="twitter-tweet" data-lang="en">
+                                    <p lang="fr" dir="ltr">A tout de suite dans <a href="https://twitter.com/LVT_RTL">@LVT_RTL</a> pour parler de l&#39;exposition sur le film L&#39;Odyssée <a href="https://twitter.com/hashtag/cousteau?src=hash">#cousteau</a> à la <a href="https://twitter.com/Cite_de_la_Mer">@Cite_de_la_Mer</a> <a href="https://twitter.com/RTLFrance">@RTLFrance</a> <a href="https://twitter.com/hashtag/RTLMatin?src=hash">#RTLMatin</a> <a href="https://t.co/sS1tlUfr2j">pic.twitter.com/sS1tlUfr2j</a></p>&mdash; frederic veille (@fredveille) <a href="https://twitter.com/fredveille/status/783922649693057024">October 6, 2016</a></blockquote>
+                                <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+                                <blockquote class="twitter-tweet" data-lang="en">
+                                    <p lang="fr" dir="ltr">A tout de suite dans <a href="https://twitter.com/LVT_RTL">@LVT_RTL</a> pour parler de l&#39;exposition sur le film L&#39;Odyssée <a href="https://twitter.com/hashtag/cousteau?src=hash">#cousteau</a> à la <a href="https://twitter.com/Cite_de_la_Mer">@Cite_de_la_Mer</a> <a href="https://twitter.com/RTLFrance">@RTLFrance</a> <a href="https://twitter.com/hashtag/RTLMatin?src=hash">#RTLMatin</a> <a href="https://t.co/sS1tlUfr2j">pic.twitter.com/sS1tlUfr2j</a></p>&mdash; frederic veille (@fredveille) <a href="https://twitter.com/fredveille/status/783922649693057024">October 6, 2016</a></blockquote>
+                                <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+                                <!-- Facebook-comments -->
+                                <div class="fb-comment-embed" data-href="https://www.facebook.com/heetchFrance/posts/1075536825833461?comment_id=1075549635832180&comment_tracking=%7B%22tn%22%3A%22R9%22%7D" data-width="auto"></div>
+
+                            </div>
+                            <!--social-content-->
+
+                        </div>
+                        <!-- cd-modal-content -->
+                    </div>
+                    <!-- cd-modal -->
+
+                    <a href="#0" class="cd-modal-close">Close</a>
+                </section>
+
+
+
+            </div>
+            <!-- cd-timeline-content -->
+        </div>
+        <!-- cd-timeline-block -->
+
+        <div class="cd-timeline-block">
+            <div class="cd-timeline-img cd-movie">
+                <img src="img/cd-icon-movie.svg" alt="Location">
+            </div>
+            <!-- cd-timeline-img -->
+
+            <div class="cd-timeline-content">
+                <h2>Video Facebook</h2>
+                <span class="cd-date">Juin 17</span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum.</p>
+
+                <section class="cd-section">
+                    <!-- section content here -->
+
+                    <div class="cd-modal-action">
+                        <a href="#0" class="btn" data-type="modal-trigger">+ d'infos</a>
+                        <span class="cd-modal-bg"></span>
+                    </div>
+
+                    <div class="cd-modal">
+                        <div class="cd-modal-content">
+
+                            <!-- Facebook-comments -->
+
+                            <div class="fb-post" data-href="https://www.facebook.com/heetchFrance/posts/1063765933677217" data-width="auto"></div>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad modi repellendus, optio eveniet eligendi molestiae? Fugiat, temporibus! A rerum pariatur neque laborum earum, illum voluptatibus eum voluptatem fugiat, porro animi tempora? Sit harum nulla, nesciunt molestias, iusto aliquam aperiam est qui possimus reprehenderit ipsam ea aut assumenda inventore iste! Animi quaerat facere repudiandae earum quisquam accusamus tempora, delectus nesciunt, provident quae aliquam, voluptatum beatae quis similique in maiores repellat eligendi voluptas veniam optio illum vero! Eius, dignissimos esse eligendi veniam.
+                            </p>
+                            <a href="#0" class="btn-content">Lire l'article</a>
+                        </div>
+                        <!-- cd-modal-content -->
+                    </div>
+                    <!-- cd-modal -->
+
+                    <a href="#0" class="cd-modal-close">Close</a>
+                </section>
+
+            </div>
+            <!-- cd-timeline-content -->
+        </div>
+        <!-- cd-timeline-block -->
+
+        <div class="cd-timeline-block">
+            <div class="cd-timeline-img cd-location">
+                <img src="img/cd-icon-location.svg" alt="Movie">
+            </div>
+            <!-- cd-timeline-img -->
+
+            <div class="cd-timeline-content">
+                <h2>Intro only</h2>
+                <span class="cd-date">Avr 17</span>
+                <p>This is the content of the last section. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad modi repellendus, optio eveniet eligendi molestiae?</p>
+            </div>
+            <!-- cd-timeline-content -->
+        </div>
+        <!-- cd-timeline-block -->
+
+
+        <div class="cd-timeline-block">
+            <div class="cd-timeline-img cd-movie">
+                <img src="img/cd-icon-movie.svg" alt="Movie">
+            </div>
+            <!-- cd-timeline-img -->
+
+            <div class="cd-timeline-content cover-section-4">
+                <h2>Video</h2>
+                <span class="cd-date white">Feb 17</span>
+
+
+
+                <section class="cd-section">
+                    <!-- section content here -->
+
+                    <div class="cd-modal-action bottom">
+                        <a href="#0" class="btn" data-type="modal-trigger">+ d'infos</a>
+                        <span class="cd-modal-bg"></span>
+                    </div>
+
+                    <div class="cd-modal">
+                        <div class="cd-modal-content">
+
+                            <div class="video-container">
+                                <iframe width="1280" height="720" src="https://www.youtube.com/embed/Vz0YyMFncew" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                            <!-- video-container -->
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad modi repellendus, optio eveniet eligendi molestiae? Fugiat, temporibus! A rerum pariatur neque laborum earum, illum voluptatibus eum voluptatem fugiat, porro animi tempora? Sit harum nulla, nesciunt molestias, iusto aliquam aperiam est qui possimus reprehenderit ipsam ea aut assumenda inventore iste! Animi quaerat facere repudiandae earum quisquam accusamus tempora, delectus nesciunt, provident quae aliquam, voluptatum beatae quis similique in maiores repellat eligendi voluptas veniam optio illum vero! Eius, dignissimos esse eligendi veniam.
+                            </p>
+                        </div>
+                        <!-- cd-modal-content -->
+                    </div>
+                    <!-- cd-modal -->
+
+                    <a href="#0" class="cd-modal-close">Close</a>
+                </section>
+
+            </div>
+            <!-- cd-timeline-content -->
+        </div>
+        <!-- cd-timeline-block -->
+
+
+
+
+
+
+    </div>
+    <!-- cd-timeline -->
+
+
+
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+    <script src="js/velocity.min.js"></script>
+
+    <script src="js/main.js"></script>
+
+    <!-- Resource jQuery -->
+    <script src="js/main-modal.js"></script>
+    <!-- Resource jQuery -->
+    <script src="js/main3.js"></script>
+
+
+</body>
+
+</html>
